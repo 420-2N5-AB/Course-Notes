@@ -18,6 +18,4 @@ Browse through the different modules of the Networking course:
 {% endfor %}
 </div>
 
----
-
 *New modules are added regularly as the course progresses.*
