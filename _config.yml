@@ -1,0 +1,46 @@
+# Site settings
+title: Networking Course Notes
+description: Academic course notes for Computer Networking
+author: Course Instructor
+email: instructor@example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - modules.md
+
+# Collections for course modules
+collections:
+  modules:
+    output: true
+    permalink: /modules/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "modules"
+    values:
+      layout: "module"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
