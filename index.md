@@ -22,8 +22,8 @@ This course covers fundamental concepts and advanced topics in computer networki
 
 ## Navigation
 
-- [Course Modules](/modules.html) - Browse all course modules
-- [About](/about.html) - About this course
+- [Course Modules](/modules/) - Browse all course modules
+- [About](/about/) - About this course
 
 ## Recent Updates
 

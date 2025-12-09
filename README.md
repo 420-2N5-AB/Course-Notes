@@ -54,7 +54,7 @@ This site is configured to work with GitHub Pages. To enable:
 
 1. Go to repository Settings
 2. Navigate to Pages section
-3. Select the branch to deploy (e.g., `main` or `copilot/build-academic-jekyll-pages`)
+3. Select the branch to deploy (e.g., `main`)
 4. Save the settings
 
 The site will be automatically built and deployed by GitHub Pages.
